@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(13, 17, 23);
+}
+.main-title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 100px;
+    letter-spacing: -3px;
+    max-width: 12ch;
+    margin-bottom: 32px;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
