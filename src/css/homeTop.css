@@ -1,0 +1,24 @@
+/* body{
+    background-color: rgb(13, 17, 23);
+} */
+.home-main-heading{
+    /* border:1px solid white; */
+    width: 40vw;
+    position:relative;
+        top:190px;
+        left: 80px;
+    
+}
+.main-title{
+    /* position: absolute;
+        top: 40%;
+        left: 40%; */
+  
+        font-size: 75px;
+        font-family: 'Martian Mono', monospace;
+        background: linear-gradient(
+            to right, #2183f3, #55ee44,
+             #2370cf, #55ee44);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
