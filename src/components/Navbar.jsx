@@ -14,7 +14,8 @@ export default function Navbar() {
       <Link to="/">
       <a href="dd" className="mr-5 hover:text-gray-400" style={{fontStyle:'normal',fontWeight:'600'}}>Home</a></Link>
       <a href="dd" className="mr-5 hover:text-gray-400" style={{fontStyle:'normal',fontWeight:'600'}}>Events</a>
-      <a href="dd" className="mr-5 hover:text-gray-400" style={{fontStyle:'normal',fontWeight:'600'}}>About</a>
+      <Link to="/about">
+      <a href="dd" className="mr-5 hover:text-gray-400" style={{fontStyle:'normal',fontWeight:'600'}}>About</a></Link>
       <Link to="/contact">
       <a href="dd" className="mr-5 hover:text-gray-400" style={{fontStyle:'normal',fontWeight:'600'}}>Contact</a></Link>
     </nav>

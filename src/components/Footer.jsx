@@ -4,7 +4,7 @@ import clubLogo from '../assets/clubLogo.png'
 export default function Footer() {
   return (
     <div>
-        <footer class="text-gray-600 body-font">
+        <footer class="overflow-hidden text-gray-600 body-font">
   <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col bg-black">
     <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
       <img src={clubLogo} style={{height:'40px',width:'40px'}} alt="clublogo" />

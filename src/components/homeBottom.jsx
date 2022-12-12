@@ -5,7 +5,6 @@ export default function homeBottom() {
     <div
       className="overflow-hidden"
       style={{
-        // height: "60",
         width: "80vw",
         marginLeft: "10vw",
         marginTop: "60px",
@@ -18,7 +17,7 @@ export default function homeBottom() {
           letterSpacing: "-0.02em",
           fontStyle: "normal",
           fontWeight: "800",
-          fontSize: "4   em",
+          fontSize: "4  em",
         }}
       >
         Departments
@@ -26,7 +25,7 @@ export default function homeBottom() {
       {/* Development Section */}
       <section class="text-gray-600 body-font">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div class="lg:max-w-sm lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <div class="lg:max-w-sm lg:w-full md:w-1/2 w-5\/6 mb-10 md:mb-0">
             <img
               class="object-cover object-center rounded"
               alt="hero"
@@ -34,7 +33,7 @@ export default function homeBottom() {
               style={{width:'10vw'}}
             />
           </div>
-          <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pl-0 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-100">
               Development
             </h1>
@@ -52,7 +51,7 @@ export default function homeBottom() {
       {/* AI Section */}
       <section class="text-gray-600 body-font">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div class="lg:max-w-sm lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <div class="lg:max-w-sm lg:w-full md:w-1/2 w-5\/6 mb-10 md:mb-0">
             <img
               class="object-cover object-center rounded"
               alt="hero"
@@ -60,7 +59,7 @@ export default function homeBottom() {
               style={{width:'10vw'}}
             />
           </div>
-          <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pl-0 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-100">
               Artificial Intelligence
             </h1>
@@ -78,7 +77,7 @@ export default function homeBottom() {
       {/* Security Section */}
       <section class="text-gray-600 body-font">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div class="lg:max-w-sm lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <div class="lg:max-w-sm lg:w-full md:w-1/2 w-5\/6 mb-10 md:mb-0">
             <img
               class="object-cover object-center rounded"
               alt="hero"
@@ -86,7 +85,7 @@ export default function homeBottom() {
               style={{width:'10vw'}}
             />
           </div>
-          <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pl-0 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-100">
               Network Security
             </h1>
@@ -104,7 +103,7 @@ export default function homeBottom() {
       {/* CP Section */}
       <section class="text-gray-600 body-font">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div class="lg:max-w-sm lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <div class="lg:max-w-sm lg:w-full md:w-1/2 w-5\/6 mb-10 md:mb-0">
             <img
               class="object-cover object-center rounded"
               alt="hero"
@@ -112,7 +111,7 @@ export default function homeBottom() {
               style={{width:'10vw'}}
             />
           </div>
-          <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pl-0 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-100">
               Competetive Programming
             </h1>
