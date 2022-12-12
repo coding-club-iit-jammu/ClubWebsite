@@ -1,12 +1,12 @@
 import React from 'react'
 import HomeTop from '../components/homeTop'
-import Footer from '../components/Footer'
+import HomeBottom from '../components/homeBottom'
 
 export default function home() {
   return (
     <div>
       <HomeTop/>
-      <Footer/>
+      <HomeBottom/>
     </div>
   )
 }
