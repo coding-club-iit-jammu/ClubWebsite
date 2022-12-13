@@ -37,7 +37,7 @@ export default function homeBottom() {
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-100">
               Development
             </h1>
-            <p class="mb-8 leading-relaxed">
+            <p class="mb-8 leading-relaxed text-gray-200">
               Copper mug try-hard pitchfork pour-over freegan heirloom neutra
               air plant cold-pressed tacos poke beard tote bag. Heirloom echo
               park mlkshk tote bag selvage hot chicken authentic tumeric
@@ -63,7 +63,7 @@ export default function homeBottom() {
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-100">
               Artificial Intelligence
             </h1>
-            <p class="mb-8 leading-relaxed">
+            <p class="mb-8 leading-relaxed text-gray-200">
               Copper mug try-hard pitchfork pour-over freegan heirloom neutra
               air plant cold-pressed tacos poke beard tote bag. Heirloom echo
               park mlkshk tote bag selvage hot chicken authentic tumeric
@@ -87,9 +87,9 @@ export default function homeBottom() {
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-0 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-100">
-              Network Security
+              Network and Security
             </h1>
-            <p class="mb-8 leading-relaxed">
+            <p class="mb-8 leading-relaxed text-gray-200">
               Copper mug try-hard pitchfork pour-over freegan heirloom neutra
               air plant cold-pressed tacos poke beard tote bag. Heirloom echo
               park mlkshk tote bag selvage hot chicken authentic tumeric
@@ -115,7 +115,7 @@ export default function homeBottom() {
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-100">
               Competetive Programming
             </h1>
-            <p class="mb-8 leading-relaxed">
+            <p class="mb-8 leading-relaxed text-gray-200">
               Copper mug try-hard pitchfork pour-over freegan heirloom neutra
               air plant cold-pressed tacos poke beard tote bag. Heirloom echo
               park mlkshk tote bag selvage hot chicken authentic tumeric
