@@ -1,32 +1,20 @@
-/* body{
-    background-color: rgb(13, 17, 23);
-} */
 .home-main-heading{
-    /* border:1px solid white; */
-    width: 50vw;
+    display: inline-block;
     position:relative;
         top:290px;
         left: 140px;
-    
 }
 .main-title{
-    /* position: absolute;
-        top: 40%;
-        left: 40%; */
+        
         overflow: hidden;
         white-space: nowrap; /* Keeps the content on a single line */
         border-right: .15em solid whitesmoke; /* The typwriter cursor */
-        font-size: 85px;
+        font-size: 5em;
         font-family: 'Martian Mono', monospace;
         font-weight: 900;
-        /* background: linear-gradient(
-            to right, #2183f3, #55ee44,
-             #2370cf, #55ee44);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text; */
         color: whitesmoke;
         animation: 
-            typing 3.5s steps(40, end),
+            typing 3s steps(60, end),
             blink-caret .75s step-end infinite;
 }
 
@@ -35,8 +23,33 @@
     to { width: 100% }
   }
   
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
+/* The typewriter cursor effect */
+@keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: whitesmoke; }
-  }
+}
+
+@media screen and (max-width: 800px) {
+    .main-title{
+        font-size: 4em;
+    }
+    .home-main-heading{
+        left: 100px;
+    }
+}
+@media screen and (max-width: 615px) {
+    .main-title{
+        font-size: 2.5em;
+    }
+    .home-main-heading{
+        left: 60px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .main-title{
+        font-size: 2em;
+    }
+    .home-main-heading{
+        left: 40px;
+    }
+}
