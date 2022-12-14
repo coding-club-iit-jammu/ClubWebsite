@@ -48,7 +48,7 @@ export default function Contact() {
       </div>
     </div>
     <div class="lg:w-1/3 md:w-1/2 bg-gray-300 rounded-lg flex flex-col md:mr-auto w-full md:py-8 mt-8 md:mt-0">
-      <h2 class="text-gray-900 text-lg mb-1 ml-3 font-medium title-font">Feedback</h2>
+      <h2 class="text-gray-900 text-lg mb-1 ml-3 font-medium title-font">Contact Us</h2>
       <p class="leading-relaxed mb-5 ml-3 text-gray-600">Fill out the below form to reach out to us</p>
       <div class="relative ml-3 mr-3 mb-4">
         <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
