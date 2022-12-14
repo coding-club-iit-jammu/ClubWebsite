@@ -11,7 +11,7 @@ export default function about() {
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-300">We have a dedicated team of core members who are always ready to give back to the community</p>
     </div>
     <div class="flex flex-wrap -m-4">
-        <TeamCards name="Harsh Agarwal" post="Coordinator" data="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorem laboriosam possimus!"  />
+        <TeamCards name="Harsh Agarwal" post="Coordinator" data="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorem laboriosam possimus!" phone="917549395833"  />
         <TeamCards name="Sanath" post="Head : Competetive Programming" data="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorem laboriosam possimus!"  />
         <TeamCards name="Aashray Gupta" post="Head : Competetive Programming" data="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorem laboriosam possimus!"  />
         <TeamCards name="Arjav Barya" post="Co-Head : Competetive Programming" data="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorem laboriosam possimus!"  />
