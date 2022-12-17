@@ -8,7 +8,7 @@ export default function homeTop() {
     <div class="overflow-hidden" style={{height:'750px',boxShadow:'0px 0px 10px 12px'}}>
         <Particle/>
         <div className="home-main-heading">
-            <h1 className="main-title">Coding Club-IIT Jammu</h1>
+            <span className="main-title">Coding Club-IIT Jammu</span>
         </div>
     </div>
     
