@@ -1,30 +1,44 @@
+:root {
+    --n: 45;
+}
 .home-main-heading{
     display: inline-block;
     position:relative;
-        top:290px;
-        left: 8vw;
+        top: 290px;
+        left: 10vw;
+    padding-left: 2.5em;
 }
-.main-title{
-        
-        overflow: hidden;
-        white-space: nowrap; 
-        border-right: .15em solid whitesmoke; 
-        font-size: 5.5vw;
-        font-family: 'Martian Mono', monospace;
-        font-weight: 900;
-        color: whitesmoke;
-        animation: 
-            typing 3s steps(60, end),
-            blink-caret .75s step-end infinite;
+.main-title {
+    font-size: 5.5vw;
+    font-weight: 700;
+    font-family: monospace;
+    color:#0000;
+    background:
+        linear-gradient(-90deg, whitesmoke 5px,#0000 0) 10px 0,
+        linear-gradient(whitesmoke 0 0) 0 0;
+    background-size:calc(var(--n)*1ch) 200%;
+    -webkit-background-clip:padding-box,text;
+    background-clip:padding-box,text;
+    background-repeat:no-repeat;
+    animation: 
+        b .75s infinite steps(1),   
+        t calc(var(--n)*.25s) steps(var(--n)) forwards;
 }
 
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+@keyframes t{
+    from {background-size:0 200%};
 }
-  
 
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: whitesmoke; }
+@keyframes b{
+    50% {background-position:0 -100%, 0 0};
+}
+
+@media (max-width: 600px){
+    .main-title {
+        font-size: 56px;
+    }
+    .home-main-heading {
+        left: 5vw;
+        top: 200px;
+    }
 }
