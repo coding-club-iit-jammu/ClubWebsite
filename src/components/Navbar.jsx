@@ -13,11 +13,12 @@ export default function Navbar() {
     <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
       <Link to="/">
       <a href="dd" className="mr-8 hover:text-lime-400" style={{fontStyle:'normal',fontWeight:'600'}}>Home</a></Link>
-      <a href="dd" className="mr-8 hover:text-purple-400" style={{fontStyle:'normal',fontWeight:'600'}}>Events</a>
+      <Link to="/events" >
+      <a href="dd" className="mr-8 hover:text-purple-400" style={{fontStyle:'normal',fontWeight:'600'}}>Events</a></Link>
       <Link to="/team">
       <a href="dd" className="mr-8 hover:text-yellow-400" style={{fontStyle:'normal',fontWeight:'600'}}>Team</a></Link>
       <Link to="/contact">
-      <a href="dd" className="mr-8 hover:text-rose-500" style={{fontStyle:'normal',fontWeight:'600'}}>Contact</a></Link>
+      <a href="dd" className="mr-8 hover:text-rose-400" style={{fontStyle:'normal',fontWeight:'600'}}>Contact</a></Link>
     </nav>
   </div>
 </header>
