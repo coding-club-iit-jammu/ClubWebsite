@@ -5,6 +5,7 @@ import Contact from './pages/contact';
 import About from './pages/about';
 import { Routes, Route} from "react-router-dom";
 import Footer from './components/Footer'
+import Event from './pages/event';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Navbar/>
     <Routes>
       <Route path="/" element={<Home/>} />
+      <Route path="/event" element={<Event/>}/>
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/team" element={<About/>}/>
     </Routes>
