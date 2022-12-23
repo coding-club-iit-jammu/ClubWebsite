@@ -5,8 +5,8 @@ import clubLogo from '../assets/clubLogo.png'
 import { Link } from 'react-router-dom'
 
 const navigation = [
-  { name: 'Home', href: '#', current: true,link:"/",color:"lime" },
-  { name: 'Events', href: '#', current: false,link:"/events",color:"purple" },
+  { name: 'Home', href: '#', current: false,link:"/",color:"lime" },
+  { name: 'Events', href: '#', current: false,link:"/event",color:"purple" },
   { name: 'Team', href: '#', current: false,link:"/team",color:"yellow" },
   { name: 'Contact', href: '#', current: false,link:"/contact",color:"rose" },
 ]
@@ -55,7 +55,7 @@ export default function Example() {
                         key={item.name}
                         href="/"
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-lime-700 hover:text-white',
+                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-lime-500 hover:text-white',
                           'px-3 py-2 rounded-md text-sm font-medium'
                         )}
                         aria-current={item.current ? 'page' : undefined}
