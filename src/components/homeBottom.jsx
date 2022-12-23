@@ -7,8 +7,11 @@ export default function homeBottom() {
       style={{
         width: "80vw",
         marginLeft: "10vw",
-        marginTop: "60px",
+        marginTop: "800px",
+        // marginBottom:"200px",
         // border: "2px solid white",
+        // zIndex:'100',
+        position:'relative',
       }}
     >
       <h1
@@ -27,7 +30,7 @@ export default function homeBottom() {
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div class="lg:max-w-[20%] lg:w-full md:w-1/2 w-5\/6 mb-10 md:mb-0">
             <img
-              class="object-cover object-center rounded"
+              class="object-cover object-center rounded sm:w-9"
               alt="hero"
               src="https://githubuniverse.com/assets/icons/asterisk_0.svg"
               style={{width:'10vw'}}
