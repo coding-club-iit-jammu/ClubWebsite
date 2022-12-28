@@ -1,4 +1,6 @@
 import React from 'react'
+// import '@rocktimsaikia/github-card'
+import Contributors from "react-contributors";
 import {useState} from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -65,8 +67,15 @@ export default function Contact() {
       <button class="ml-3 mr-3 text-white bg-lime-500 border-0 py-2 px-6 focus:outline-none hover:bg-lime-600 rounded text-lg" onClick={handleSubmit}>Submit</button>
       {/* <p class="text-xs text-gray-900 mr-3 ml-3 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p> */}
     </div>
-  </div>
-</section>
+    
+    </div>
+    </section>
+
+    <div class="flex flex-col text-center w-full mb-20 mt-0">
+            <h1 class="text-2xl font-medium title-font mb-4 text-gray-300 tracking-widest">DEVELOPER CREDITS</h1>
+          </div>
+    <Contributors owner={"coding-club-iit-jammu"} repo={"ClubWebsite"} />;
+    
     </div>
   )
 }
