@@ -4,12 +4,9 @@ import Modal from "./modal";
 
 export default function eventCard({name,type,date,desc,poster_img,duration,color,secondCard,name2,type2,date2,desc2,poster_img2,duration2,color2}) {
 
-  const [showModal,setShowModal] = useState[false];
 
   return (
     <div>
-      {/* {showModal && <Modal/>} */}
-      <Modal/>
       <article className={`postcard dark ${color}`} style={{marginLeft:'20px',marginRight:'20px'}}>
         <a className="postcard__img_link" href="#">
           <img
@@ -42,7 +39,7 @@ export default function eventCard({name,type,date,desc,poster_img,duration,color
               {duration}
             </li>
             <li className={`tag__item play ${color}`}>
-              <button onClick={()=> setShowModal(true)}>
+              <button>
                 {/* <i className="fas fa-play mr-1" /> */}
                 Expand
               </button>

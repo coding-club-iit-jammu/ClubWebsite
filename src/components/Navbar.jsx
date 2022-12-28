@@ -49,20 +49,54 @@ export default function Example() {
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
-                    {navigation.map((item) => (
-                      <Link to={item.link}>
+                      <Link to={navigation[0].link}>
                       <a
-                        key={item.name}
+                        key={navigation[0].name}
                         href="/"
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-lime-500 hover:text-white',
+                          navigation.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-emerald-600 hover:text-white',
                           'px-3 py-2 rounded-md text-sm font-medium'
                         )}
-                        aria-current={item.current ? 'page' : undefined}
+                        aria-current={navigation[0].current ? 'page' : undefined}
                       >
-                        {item.name}
+                        {navigation[0].name}
                       </a></Link>
-                    ))}
+                      <Link to={navigation[1].link}>
+                      <a
+                        key={navigation[1].name}
+                        href="/"
+                        className={classNames(
+                          navigation.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-violet-600 hover:text-white',
+                          'px-3 py-2 rounded-md text-sm font-medium'
+                        )}
+                        aria-current={navigation[1].current ? 'page' : undefined}
+                      >
+                        {navigation[1].name}
+                      </a></Link>
+                      <Link to={navigation[2].link}>
+                      <a
+                        key={navigation[2].name}
+                        href="/"
+                        className={classNames(
+                          navigation.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-yellow-600 hover:text-white',
+                          'px-3 py-2 rounded-md text-sm font-medium'
+                        )}
+                        aria-current={navigation[2].current ? 'page' : undefined}
+                      >
+                        {navigation[2].name}
+                      </a></Link>
+                      <Link to={navigation[3].link}>
+                      <a
+                        key={navigation[3].name}
+                        href="/"
+                        className={classNames(
+                          navigation.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-rose-600 hover:text-white',
+                          'px-3 py-2 rounded-md text-sm font-medium'
+                        )}
+                        aria-current={navigation[3].current ? 'page' : undefined}
+                      >
+                        {navigation[3].name}
+                      </a></Link>
                   </div>
                 </div>
               </div>
