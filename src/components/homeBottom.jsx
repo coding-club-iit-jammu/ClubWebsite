@@ -41,7 +41,7 @@ export default function homeBottom() {
               Development
             </h1>
             <p class="mb-8 leading-relaxed text-gray-200">
-              The development Department in our club encompasses Web Development , Android/ios Development , Open Source Projects and much more.
+              The development Department in our club encompasses Web Development , Android/ios Development , Open Source Projects and much more. The tech stack for various developments are ever evolving.The role of this department id to keep the community updated wit these techs and provide opprtunities for projects.
             </p>
             <div class="flex justify-center">
             </div>
@@ -64,10 +64,7 @@ export default function homeBottom() {
               Artificial Intelligence
             </h1>
             <p class="mb-8 leading-relaxed text-gray-200">
-              Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-              air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-              park mlkshk tote bag selvage hot chicken authentic tumeric
-              truffaut hexagon try-hard chambray.
+              Artificial intelligence (AI) is a wide-ranging branch of computer science. AI is an interdisciplinary science with multiple approaches, but advancements in machine learning and deep learning are creating a paradigm shift in virtually every sector of the tech industry.
             </p>
             <div class="flex justify-center">
             </div>
@@ -90,10 +87,7 @@ export default function homeBottom() {
               Network and Security
             </h1>
             <p class="mb-8 leading-relaxed text-gray-200">
-              Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-              air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-              park mlkshk tote bag selvage hot chicken authentic tumeric
-              truffaut hexagon try-hard chambray.
+            Network security is a domain designed to protect the usability and integrity of your network and data. It includes both hardware and software technologies.The role of this department is to educate our community with these technologies amd provide a peer group for people with same interest.
             </p>
             <div class="flex justify-center">
             </div>
@@ -116,10 +110,7 @@ export default function homeBottom() {
               Competetive Programming
             </h1>
             <p class="mb-8 leading-relaxed text-gray-200">
-              Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-              air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-              park mlkshk tote bag selvage hot chicken authentic tumeric
-              truffaut hexagon try-hard chambray.
+              Competitive Programming is a mental sport which enables you to code a given problem under provided constraints.Our CP department guides every individual possessing a desire to excel in this sport. We also conduct regular workshops and provide roadmaps and peer groups for students intersted in Competetive Programming. 
             </p>
             <div class="flex justify-center">
             </div>
