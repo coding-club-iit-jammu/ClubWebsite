@@ -1,6 +1,6 @@
 import React from 'react'
 // import '@rocktimsaikia/github-card'
-import Contributors from "react-contributors";
+// import Contributors from "react-contributors";
 import {useState} from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -74,7 +74,7 @@ export default function Contact() {
     <div class="flex flex-col text-center w-full mb-20 mt-0">
             <h1 class="text-2xl font-medium title-font mb-4 text-gray-300 tracking-widest">DEVELOPER CREDITS</h1>
           </div>
-    <Contributors owner={"coding-club-iit-jammu"} repo={"ClubWebsite"} />;
+    {/* <Contributors owner={"coding-club-iit-jammu"} repo={"ClubWebsite"} />; */}
     
     </div>
   )
