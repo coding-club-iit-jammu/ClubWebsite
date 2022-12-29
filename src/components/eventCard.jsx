@@ -40,7 +40,6 @@ export default function eventCard({name,type,date,desc,poster_img,duration,color
             </li>
             <li className={`tag__item play ${color}`}>
               <button>
-                {/* <i className="fas fa-play mr-1" /> */}
                 Expand
               </button>
             </li>
@@ -80,11 +79,11 @@ export default function eventCard({name,type,date,desc,poster_img,duration,color
             </li>
             <li className={`tag__item play ${color2}`}>
               <button>
-                <i className="fas fa-play mr-1" />
+                
                 Expand
               </button>
             </li>
-          </ul>
+          </ul> 
         </div>
       </article>}
     </div>
