@@ -71,9 +71,9 @@ export default function Contact() {
     </div>
     </section>
 
-    <div class="flex flex-col text-center w-full mb-20 mt-0">
+    {/* <div class="flex flex-col text-center w-full mb-20 mt-0">
             <h1 class="text-2xl font-medium title-font mb-4 text-gray-300 tracking-widest">DEVELOPER CREDITS</h1>
-          </div>
+          </div> */}
     {/* <Contributors owner={"coding-club-iit-jammu"} repo={"ClubWebsite"} />; */}
     
     </div>

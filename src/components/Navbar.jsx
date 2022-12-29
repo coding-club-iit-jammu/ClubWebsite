@@ -51,7 +51,6 @@ export default function Example() {
                   <div className="flex space-x-4">
                       <Link to={navigation[0].link}>
                       <a
-                        key={navigation[0].name}
                         href="/"
                         className={classNames(
                           navigation.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-emerald-600 hover:text-white',
@@ -63,7 +62,6 @@ export default function Example() {
                       </a></Link>
                       <Link to={navigation[1].link}>
                       <a
-                        key={navigation[1].name}
                         href="/"
                         className={classNames(
                           navigation.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-violet-600 hover:text-white',
@@ -75,7 +73,6 @@ export default function Example() {
                       </a></Link>
                       <Link to={navigation[2].link}>
                       <a
-                        key={navigation[2].name}
                         href="/"
                         className={classNames(
                           navigation.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-yellow-600 hover:text-white',
@@ -87,7 +84,6 @@ export default function Example() {
                       </a></Link>
                       <Link to={navigation[3].link}>
                       <a
-                        key={navigation[3].name}
                         href="/"
                         className={classNames(
                           navigation.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-rose-600 hover:text-white',
@@ -116,7 +112,6 @@ export default function Example() {
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 px-2 pt-2 pb-3">
               {navigation.map((item) => (
-
                 <Link to={item.link}>
                 <Disclosure.Button
                   key={item.name}
