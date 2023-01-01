@@ -55,10 +55,10 @@ export default function Particle() {
       },
       particles: {
           color: {
-              value: "#b912ec",
+              value: "#5caefb",
           },
           links: {
-              color: "#ffffff",
+              color: "#409cf1",
               distance: 150,
               enable: true,
               opacity: 0.5,
@@ -82,7 +82,7 @@ export default function Particle() {
                   enable: true,
                   area: 800,
               },
-              value: 80,
+              value: 90,
           },
           opacity: {
               value: 0.5,

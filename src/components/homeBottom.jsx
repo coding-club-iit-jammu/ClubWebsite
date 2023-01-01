@@ -30,10 +30,10 @@ export default function homeBottom() {
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div class="lg:max-w-[20%] lg:w-full md:w-1/2 w-5\/6 mb-10 md:mb-0">
             <img
-              class="object-cover object-center rounded sm:w-9"
+              class="w-36 object-cover object-center rounded"
               alt="hero"
               src="https://githubuniverse.com/assets/icons/asterisk_0.svg"
-              style={{width:'10vw'}}
+              // style={{width:'10vw'}}
             />
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-0 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -53,10 +53,10 @@ export default function homeBottom() {
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div class="lg:max-w-[20%] lg:w-full md:w-1/2 w-5\/6 mb-10 md:mb-0">
             <img
-              class="object-cover object-center rounded"
+              class="w-36 object-cover object-center rounded"
               alt="hero"
               src="https://githubuniverse.com/assets/icons/asterisk_2.svg"
-              style={{width:'10vw'}}
+              // style={{width:'10vw'}}
             />
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-0 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -76,10 +76,10 @@ export default function homeBottom() {
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div class="lg:max-w-[20%] lg:w-full md:w-1/2 w-5\/6 mb-10 md:mb-0">
             <img
-              class="object-cover object-center rounded"
+              class="w-36 object-cover object-center rounded"
               alt="hero"
               src="https://githubuniverse.com/assets/icons/asterisk_1.svg"
-              style={{width:'10vw'}}
+              // style={{width:'10vw'}}
             />
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-0 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -97,12 +97,12 @@ export default function homeBottom() {
       {/* CP Section */}
       <section class="text-gray-600 body-font">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-          <div class="lg:max-w-[20%] lg:w-full md:w-1/2 w-5\/6 mb-10 md:mb-0">
+          <div class="lg:max-w-[20%] lg:w-full md:w-1/2 w-5\/6 mb-10 md:mb-0 ">
             <img
-              class="object-cover object-center rounded"
+              class="w-36 object-cover object-center rounded"
               alt="hero"
               src="https://githubuniverse.com/assets/icons/asterisk_3.svg"
-              style={{width:'10vw'}}
+              // style={{width:'10vw'}}
             />
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-0 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">

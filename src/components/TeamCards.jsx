@@ -4,7 +4,7 @@ import DummyImage from '../assets/memberImages/JohnDoe.jpg'
 export default function TeamCards({ name, post, data,linkedin,twitter,phone,img,github}) {
   return (
     <div class="p-4 lg:w-1/2">
-      <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left ml-2">
+      <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left ml-10">
         <img
           alt="team"
           class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
