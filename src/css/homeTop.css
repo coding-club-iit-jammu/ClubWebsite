@@ -1,11 +1,8 @@
-:root {
-    --n: 45;
-}
-.particlejs-top{
+.particlej-top{
     height:'750px';
     border: 1px solid white;
-    /* z-index: 100; */
-    /* box-shadow: 500px 400px 400px 100px ; */
+    /* z-index: 100;
+    box-shadow: 500px 400px 400px 100px ; */
 }
 
 /* .home-main-heading{
@@ -16,40 +13,21 @@
     padding-left: 2.5em;
     border: 2px solid white;
 } */
-.main-title {
-    position:absolute;
-    left:10vw;
-    top:304px;
-    font-size: 6.5vw;
-    font-weight: 700;
-    font-family: monospace;
-    color:#0000;
-    background:
-        linear-gradient(-90deg, whitesmoke 5px,#0000 0) 10px 0,
-        linear-gradient(whitesmoke 0 0) 0 0;
-    background-size:calc(var(--n)*1ch) 200%;
-    -webkit-background-clip:padding-box,text;
-    background-clip:padding-box,text;
-    background-repeat:no-repeat;
-    animation: 
-        b .45s infinite steps(1),   
-        t calc(var(--n)*.15s) steps(var(--n)) forwards;
-}
-
-@keyframes t{
-    from {background-size:0 200%};
-}
-
-@keyframes b{
-    50% {background-position:0 -100%, 0 0};
+.heading{
+    top: 40vh;
+    left: 20vw;
+    position: absolute;
+    font-family: sans-serif;
+    color: aliceblue;
+    font-weight:800;
+    font-size:4em;
+    text-align: center;
 }
 
 @media (max-width: 600px){
-    .main-title {
-        font-size: 56px;
-    }
-    .home-main-heading {
-        left: 5vw;
-        top: 200px;
+    .heading {
+        top: 30vh;
+        left: 10vw;
+        font-size: 3.5em;
     }
 }
