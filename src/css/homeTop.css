@@ -1,5 +1,3 @@
-
-
 .particlejs-top{
     height:'750px';
     border: 1px solid white;
@@ -17,12 +15,12 @@
 } */
 .heading{
     top: 40vh;
-    left: 20vw;
+    left: 12vw;
     position: absolute;
     font-family: sans-serif;
     color: aliceblue;
     font-weight:800;
-    font-size:4em;
+    font-size:5em;
     text-align: center;
 }
 
