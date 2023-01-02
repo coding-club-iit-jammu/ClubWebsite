@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ClubWebsite/static/css/main.d49d83dd.css",
-    "main.js": "/ClubWebsite/static/js/main.8996f8d6.js",
+    "main.js": "/ClubWebsite/static/js/main.4cd3d3d6.js",
     "static/js/787.c984f1cd.chunk.js": "/ClubWebsite/static/js/787.c984f1cd.chunk.js",
     "static/media/Prakhar.jpg": "/ClubWebsite/static/media/Prakhar.0cb5c1b4f817461e0cc4.jpg",
     "static/media/Aashray.jpg": "/ClubWebsite/static/media/Aashray.b40e945d74a030cca7bc.jpg",
@@ -18,17 +18,18 @@
     "static/media/WebDev-Workshop.jpeg": "/ClubWebsite/static/media/WebDev-Workshop.0e5437ae01800599993c.jpeg",
     "static/media/OpenSourceWorkshop.jpeg": "/ClubWebsite/static/media/OpenSourceWorkshop.6cef22726320f085b3d5.jpeg",
     "static/media/Harsh.jpeg": "/ClubWebsite/static/media/Harsh.d5c5e58882e0935258e9.jpeg",
+    "static/media/Aditya.jpeg": "/ClubWebsite/static/media/Aditya.29721a7516a2e677a183.jpeg",
     "static/media/Kishan.jpeg": "/ClubWebsite/static/media/Kishan.cc55b7d69062c8ff42e0.jpeg",
     "static/media/Aayush.jpg": "/ClubWebsite/static/media/Aayush.20c0217939bc138c4479.jpg",
     "static/media/Sourav.jpeg": "/ClubWebsite/static/media/Sourav.ef6fc6a0d5af5964932a.jpeg",
     "static/media/JohnDoe.jpg": "/ClubWebsite/static/media/JohnDoe.f3d5c5ae230104a384db.jpg",
     "index.html": "/ClubWebsite/index.html",
     "main.d49d83dd.css.map": "/ClubWebsite/static/css/main.d49d83dd.css.map",
-    "main.8996f8d6.js.map": "/ClubWebsite/static/js/main.8996f8d6.js.map",
+    "main.4cd3d3d6.js.map": "/ClubWebsite/static/js/main.4cd3d3d6.js.map",
     "787.c984f1cd.chunk.js.map": "/ClubWebsite/static/js/787.c984f1cd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d49d83dd.css",
-    "static/js/main.8996f8d6.js"
+    "static/js/main.4cd3d3d6.js"
   ]
 }
