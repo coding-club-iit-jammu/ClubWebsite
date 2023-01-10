@@ -5,7 +5,7 @@ import clubLogo from '../assets/clubLogo.png'
 import { Link } from 'react-router-dom'
 
 const navigation = [
-  { name: 'Home', href: '#', current: false,link:"/",color:"lime" },
+  { name: 'Home', href: '#', current: false,link:"/ClubWebsite",color:"lime" },
   { name: 'Events', href: '#', current: false,link:"/ClubWebsite/event",color:"purple" },
   { name: 'Team', href: '#', current: false,link:"/ClubWebsite/team",color:"yellow" },
   { name: 'Contact', href: '#', current: false,link:"/ClubWebsite/contact",color:"rose" },
