@@ -2,7 +2,7 @@
   "name": "clubweb",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://coding-club-iit-jammu.github.io",
+  "homepage": "http://coding-club-iit-jammu.github.io/",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@headlessui/react": "^1.7.5",
