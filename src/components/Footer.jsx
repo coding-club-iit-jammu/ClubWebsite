@@ -9,7 +9,7 @@ export default function Footer() {
     <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
       <img src={clubLogo} style={{height:'40px',width:'40px'}} alt="clublogo" />
     </a>
-    <p class="text-sm text-gray-200 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2022 CodingClub 
+    <p class="text-sm text-gray-200 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2023 CodingClub 
     </p>
     <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
       {/* <a class="text-gray-300">

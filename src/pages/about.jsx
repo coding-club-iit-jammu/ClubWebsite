@@ -14,6 +14,8 @@ import Kishan from '../assets/memberImages/Kishan.jpeg'
 import Sourav from '../assets/memberImages/Sourav.jpeg'
 import Soumye from '../assets/memberImages/Soumye.jpg'
 import Aditya from '../assets/memberImages/Aditya.jpeg'
+import Sanath from '../assets/memberImages/Sanath.jpg'
+import Atharva from '../assets/memberImages/Atharva.jpg'
 
 export default function about() {
   return (
@@ -26,18 +28,18 @@ export default function about() {
           </div>
           <div class="flex flex-wrap -m-4">
             <TeamCards name="Harsh Agarwal" img={Harsh} post="Coordinator" data="Computer Science and Engineering" linkedin={"https://www.linkedin.com/in/harsh-agarwal-364439228/"} phone="917549395833" twitter={"https://twitter.com/HK_Agrwl"} github={"https://github.com/HKAgrwl"} />
-            <TeamCards name="Sanath" post="Head : Competetive Programming" data="Mechanical Engineering" />
+            <TeamCards name="Sanath Naveen Sharma" img={Sanath} post="Head : Competetive Programming" data="Mechanical Engineering" />
             <TeamCards name="Aashray Gupta" img={Aashray} post="Head : Competetive Programming" data="Computer Science and Engineering" linkedin={"https://www.linkedin.com/in/aashray-gupta-26a503246/"} phone={"7009378912"} />
             <TeamCards name="Arjav Barya" img={ArjavBarya} post="Co-Head : Competetive Programming" data="Mechanical Engineering" linkedin={"https://www.linkedin.com/in/arjav-barya-569584235/"} phone={"9301763998"} />
             <TeamCards name="Aarav Jain" img={AravJain} post="Head : Development" data="Computer Science and Engineering" linkedin={"https://www.linkedin.com/in/aaravjn/"} phone="7487853240" />
             <TeamCards name="Prakhar Kapisway" img={Prakhar} post="Co-Head : Development" data="Computer Science and Engineering" linkedin={"https://www.linkedin.com/in/prakhar-kapisway-1524ba22b/"} phone={"9508307404"} />
-            <TeamCards name="Atharva Bhunje" post="Head : Network and Security" data="Chemical Engineering" />
+            <TeamCards name="Atharva Bhunje" img={Atharva} post="Head : Network and Security" data="Chemical Engineering" />
             <TeamCards name="Vishwaroop Gangarde" img={Vishwaroop} post="Co-Head : Network and Security" data="Chemical Engineering" linkedin={"https://www.linkedin.com/in/vishwaroop-gangarde-118a02228/"} phone="7709888143" />
             <TeamCards name="Aayush Gupta" img={Aayush} post="Head : Artificial Intelligence and ML" data="Computer Science and Engineering" linkedin={"https://www.linkedin.com/in/aayush-gupta-095b3723a"} phone="9485701058" />
             <TeamCards name="Sourav Saini" img={Sourav} post="Co-Head : Artificial Intelligence and ML" data="Computer Science and Engineering" linkedin={"https://www.linkedin.com/in/sourav-saini2003"} phone={"7082324117"} />
-            <TeamCards name="Aditya Raj" img={Aditya} post="Head : Event Management" data="Material Science" />
+            <TeamCards name="Aditya Raj" img={Aditya} post="Head : Event Management" data="Material Science Engineering" />
             <TeamCards name="Sunny" post="Co-Head : Event Management" img={Sunny} data="Chemical Engineering" linkedin={"https://www.linkedin.com/in/sunny-kumar-272982240/"} phone={"8708098785"} />
-            <TeamCards name="Manish Jaiswar" img={Manish} post="Co-Head : Event Management" data="Material Science" linkedin={"https://www.linkedin.com/in/manish-jaiswar-783495230"} phone={"7718022192"} />
+            <TeamCards name="Manish Jaiswar" img={Manish} post="Co-Head : Event Management" data="Material Science Engineering" linkedin={"https://www.linkedin.com/in/manish-jaiswar-783495230"} phone={"7718022192"} />
             <TeamCards name="Abhinish Ojha" img={Abhinish} post="Co-Head : Event Management" data="Chemical Engineering" linkedin={"https://www.linkedin.com/in/abhinish-ojha-522882227/"} phone={"6392830309"} />
             <TeamCards name="Soumye Sharma" img={Soumye}  post="Co-Head : Event Management" data="Civil Engineering" linkedin={"https://www.linkedin.com/in/soumye-sharma-4377ba25a/"} phone={"6376801575"} />
             <TeamCards name="KISHAN DAS" img={Kishan}  post="Event Management" data="Chemical Engineering" linkedin={"linkedin.com/in/iitian-kishan-502611253"} phone={"9436785392"} />
