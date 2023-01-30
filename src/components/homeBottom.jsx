@@ -7,7 +7,7 @@ export default function homeBottom() {
       style={{
         width: "80vw",
         marginLeft: "10vw",
-        marginTop: "800px",
+        marginTop: "850px",
         // marginBottom:"200px",
         // border: "2px solid white",
         // zIndex:'100',
@@ -107,7 +107,7 @@ export default function homeBottom() {
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-0 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-100">
-              Competetive Programming
+              Competitive Programming
             </h1>
             <p class="mb-8 leading-relaxed text-gray-200">
               Competitive Programming is a mental sport which enables you to code a given problem under provided constraints.Our CP department guides every individual possessing a desire to excel in this sport. We also conduct regular workshops and provide roadmaps and peer groups for students intersted in Competetive Programming. 

@@ -42,7 +42,7 @@ export default function about() {
             <TeamCards name="Manish Jaiswar" img={Manish} post="Co-Head : Event Management" data="Material Science Engineering" linkedin={"https://www.linkedin.com/in/manish-jaiswar-783495230"} phone={"7718022192"} />
             <TeamCards name="Abhinish Ojha" img={Abhinish} post="Co-Head : Event Management" data="Chemical Engineering" linkedin={"https://www.linkedin.com/in/abhinish-ojha-522882227/"} phone={"6392830309"} />
             <TeamCards name="Soumye Sharma" img={Soumye}  post="Co-Head : Event Management" data="Civil Engineering" linkedin={"https://www.linkedin.com/in/soumye-sharma-4377ba25a/"} phone={"6376801575"} />
-            <TeamCards name="KISHAN DAS" img={Kishan}  post="Event Management" data="Chemical Engineering" linkedin={"linkedin.com/in/iitian-kishan-502611253"} phone={"9436785392"} />
+            <TeamCards name="KISHAN DAS" img={Kishan}  post="Co-Head : Event Management" data="Chemical Engineering" linkedin={"linkedin.com/in/iitian-kishan-502611253"} phone={"9436785392"} />
 
           </div>
           <div class="flex flex-col text-center w-full mb-20 mt-20">
