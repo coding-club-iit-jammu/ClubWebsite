@@ -28,9 +28,9 @@ export default function about() {
           </div>
           <div class="flex flex-wrap -m-4">
             <TeamCards name="Harsh Agarwal" img={Harsh} post="Coordinator" data="Computer Science and Engineering" linkedin={"https://www.linkedin.com/in/harsh-agarwal-364439228/"} phone="917549395833" twitter={"https://twitter.com/HK_Agrwl"} github={"https://github.com/HKAgrwl"} />
-            <TeamCards name="Sanath Naveen Sharma" img={Sanath} post="Head : Competetive Programming" data="Mechanical Engineering" />
-            <TeamCards name="Aashray Gupta" img={Aashray} post="Head : Competetive Programming" data="Computer Science and Engineering" linkedin={"https://www.linkedin.com/in/aashray-gupta-26a503246/"} phone={"7009378912"} />
-            <TeamCards name="Arjav Barya" img={ArjavBarya} post="Co-Head : Competetive Programming" data="Mechanical Engineering" linkedin={"https://www.linkedin.com/in/arjav-barya-569584235/"} phone={"9301763998"} />
+            <TeamCards name="Sanath Naveen Sharma" img={Sanath} post="Head : Competitive Programming" data="Mechanical Engineering" />
+            <TeamCards name="Aashray Gupta" img={Aashray} post="Head : Competitive Programming" data="Computer Science and Engineering" linkedin={"https://www.linkedin.com/in/aashray-gupta-26a503246/"} phone={"7009378912"} />
+            <TeamCards name="Arjav Barya" img={ArjavBarya} post="Co-Head : Competitive Programming" data="Mechanical Engineering" linkedin={"https://www.linkedin.com/in/arjav-barya-569584235/"} phone={"9301763998"} />
             <TeamCards name="Aarav Jain" img={AravJain} post="Head : Development" data="Computer Science and Engineering" linkedin={"https://www.linkedin.com/in/aaravjn/"} phone="7487853240" />
             <TeamCards name="Prakhar Kapisway" img={Prakhar} post="Co-Head : Development" data="Computer Science and Engineering" linkedin={"https://www.linkedin.com/in/prakhar-kapisway-1524ba22b/"} phone={"9508307404"} />
             <TeamCards name="Atharva Bhunje" img={Atharva} post="Head : Network and Security" data="Chemical Engineering" />
